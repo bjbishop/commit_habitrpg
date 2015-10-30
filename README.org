@@ -12,3 +12,9 @@ export HABITRPG_API_KEY=<your key>
 export HABITRPG_API_USER=<your user>
 export COMMIT_TASK_ID=<habit task id>
 #+END_EXAMPLE
+
+* TODO's
+
+- Add an argument so that different projects could update different tasks
+- Remove the hard coded paths
+
