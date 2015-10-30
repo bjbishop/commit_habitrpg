@@ -1,0 +1,5 @@
+- id: commit_habitrpg
+  name: Update HabitRPG
+  entry: commit_habitrpg.sh
+  language: script
+  files: \.*$
