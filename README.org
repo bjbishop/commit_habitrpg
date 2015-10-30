@@ -8,7 +8,7 @@ when a commit is performed.
 This script sources the HabitRPG api keys from a ~/.secrets/habitrpg.sh in the form of:
 
 #+BEGIN_EXAMPLE
-export HABITRPG_API_KEY=,.,.,
-export HABITRPG_API_USER=,,,
-export COMMIT_TASK_ID=...
+export HABITRPG_API_KEY=<your key>
+export HABITRPG_API_USER=<your user>
+export COMMIT_TASK_ID=<habit task id>
 #+END_EXAMPLE
