@@ -5,4 +5,4 @@
 
 source ~/.secrets/habitrpg.sh
 
-\curl -m 5 -s -X POST -H "x-api-key: $HABITRPG_API_KEY" -H "x-api-user: $HABITRPG_API_USER" https://habitica.com/api/v2/user/tasks/$COMMIT_TASK_ID/up
+\curl --retry 2 -m 5 -s -X POST -H "x-api-key: $HABITRPG_API_KEY" -H "x-api-user: $HABITRPG_API_USER" https://habitica.com/api/v2/user/tasks/$COMMIT_TASK_ID/up
