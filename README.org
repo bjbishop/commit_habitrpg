@@ -18,3 +18,4 @@ export COMMIT_TASK_ID=<habit task id>
 - Add an argument so that different projects could update different tasks
 - Remove the hard coded paths
 
+- Testing
