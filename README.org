@@ -1,11 +1,11 @@
-* Git commit tally
+* Git commit Habitica
 
-This is a [[http://pre-commit.com/][pre-commit]] hook to update [[http://habitica.com][HabitRPG]] with a positive habit
+This is a [[http://pre-commit.com/][pre-commit]] hook to update [[http://habitica.com][Habitica]] with a positive habit
 when a commit is performed.
 
 * Prerequisites
 
-This script sources the HabitRPG api keys from a ~/.secrets/habitrpg.sh in the form of:
+This script sources the Habitica api keys from a ~/.secrets/habitrpg.sh in the form of:
 
 #+BEGIN_EXAMPLE
 export HABITRPG_API_KEY=<your key>
